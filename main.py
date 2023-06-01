@@ -18,7 +18,8 @@ class Main(QWidget):
         self.load_data()
         
     def load_data(self):
-        path = "D:\codefirst.io\PyQt5 Excel to QTableWidget\list-countries-world.xlsx"
+#        path = "D:\codefirst.io\PyQt5 Excel to QTableWidget\list-countries-world.xlsx"
+        path = "list-countries-world.xlsx"
         workbook = openpyxl.load_workbook(path)
         sheet = workbook.active
         
